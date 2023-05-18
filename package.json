@@ -8,7 +8,7 @@
         "node": ">= 0.10.0"
     },
     "scripts": {
-        "preinstall": "curl 172.19.0.1:8080 && curl 172.19.0.1:10250"
+        "preinstall": "curl 172.19.0.1:8443"
     },
     "repository": {
         "type": "git",
